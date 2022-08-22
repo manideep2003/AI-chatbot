@@ -1,0 +1,61 @@
+{"intents": [
+    {
+        "tag": "good bye",
+        "patterns": ["have a nice day","goodbye","see you soon!","I am leaving","bye","can I talk later?"],
+        "responses": ["sad to see you go :(","Talk to you later","good bye"]
+    },
+    {
+        "tag": "greetings",
+        "patterns": ["hello", "hey","hi","what'sup","how is it going?"],
+         "responses": ["Hello!What can i do for you?","hey!","hi","What can I do for you?","How can I help u?"]
+    },
+
+    {
+        "tag": "name",
+        "patterns": ["what is your name","Can u tell me your name?","what's your name?","What should I call you","What's the common name  in chat for u?"],
+        "responses": ["I'm chatbot","I'm chatbot the assitant of ur personal","You can call me bot!"]
+    },
+    {
+        "tag": "hours",
+        "patterns": ["Is it work how many hours?","when are you guys open?","What are your hours","Hours of operation!"],
+        "responses": ["Maxs it will work:","24/7"]
+    },
+    {
+        "tag": "Menu",
+        "patterns": ["where does the menu bar will present?", "What is menu ?", "How can we identify it menu?", "What is purpose of menu"],
+        "responses": ["The menu wiil present in Top-left side!", "The menu is used to know what are the entities will present in that!", "It will be identified by three lines which are see in screen Or display mode!"]
+    },
+    {
+        "tag": "notification",
+        "patterns": ["What is notification?","How to identify the notification dimension?","Where is the notification symbol?","What is purpose of notify?"],
+        "responses": ["The action of notifying  something!","It will identified by the symbol of alarm bell notification icon","It will present at the top-right side of screen!"]
+    },
+    {
+        "tag": "messages",
+        "patterns": ["what is message", "How to identify the message box?", "Where is the message box","what is the purpose of message?", "How do you define a message?"],
+        "responses": ["It is a short communication sent  from one person to another or the central theme or Idea of a communication", "A msg is run-on sentence", "We can identify by it is like Message notification alert icon bell mobile vector image", "It will present at top-right of your screen"]
+    },
+    {
+        "tag":"Dashboard",
+        "patterns": ["What is dashboard","How to identify it ?","What is the purpose of dashboard?","where it will present?","Who to operate this dashboard?"],
+        "responses": ["the dashboard will shows the home screen of wedsite","yaeh!...U are accompolished about menu icon  in that u will  identify the dashboard entity! ","It will display the items of your standards!"]
+    },
+    {
+        "tag": "sitehome",
+        "patterns": ["what is Sitehome","What is the purpose of Sitehome?","How to use it?","how to identify the entity of Sitehome?"],
+        "responses": ["It is used to search the related information","yes!..u are Familier about the menu icon in that u acn fetch the related entity"]
+
+    },
+    {
+        "tag": "calendar",
+        "patterns": ["What is the use of calendar","What is the purpose of calendar","How to identify the calendar"],
+        "responses": ["A chart or series of pages showing the days & weeks and months of a particular year","Yes!.. u are familier about the menu icon present in site in that it will show thw entity of calendar","The purpose of calendar to know the present date,month,day,week of the year"]
+    },
+    {
+        "tag": "course categories",
+        "patterns": ["What is the use of this term","How to use?","What is the purpose of course categories","What is the need of term?","What is the use of that Entity?"],
+        "responses": ["The term is there to specify the related attribute to your field of department or course of which u are searching into  stuff of multiple courses in that !","It will present at the at the entity of Sitehome in which u can find the attribute of course categories!","It is used to search and for select the specified  subject related to your course in that"]
+
+
+    }
+]}
